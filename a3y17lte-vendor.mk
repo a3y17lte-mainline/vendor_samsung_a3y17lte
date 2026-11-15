@@ -3,5 +3,7 @@
 PRODUCT_COPY_FILES += \
     vendor/samsung/a3y17lte/proprietary/vendor/firmware/ath10k/QCA9377/hw1.0/firmware-sdio-5.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ath10k/QCA9377/hw1.0/firmware-sdio-5.bin \
     vendor/samsung/a3y17lte/proprietary/vendor/firmware/ath10k/QCA9377/hw1.0/board.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ath10k/QCA9377/hw1.0/board.bin \
+    vendor/samsung/a3y17lte/proprietary/vendor/firmware/regulatory.db:$(TARGET_COPY_OUT_VENDOR)/firmware/regulatory.db \
+    vendor/samsung/a3y17lte/proprietary/vendor/firmware/regulatory.db.p7s:$(TARGET_COPY_OUT_VENDOR)/firmware/regulatory.db.p7s \
     vendor/samsung/a3y17lte/proprietary/vendor/firmware/qca/rampatch_00230302.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/qca/rampatch_00230302.bin \
     vendor/samsung/a3y17lte/proprietary/vendor/firmware/qca/nvm_00230302.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/qca/nvm_00230302.bin
